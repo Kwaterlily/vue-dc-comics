@@ -1,0 +1,27 @@
+// RESET
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@mixin d-flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
